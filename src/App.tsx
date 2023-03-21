@@ -7,13 +7,16 @@ import { Table } from "./ROUTES/TABLE/Table";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<WelcomePage />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/table" element={<Table />} />
-      </Routes>
-    </BrowserRouter>
+    <>
+      Demo
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<WelcomePage />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/table" element={<Table />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
