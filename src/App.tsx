@@ -6,10 +6,8 @@ import { Login } from "./ROUTES/LOGINPAGE/Login";
 import { Table } from "./ROUTES/TABLE/Table";
 
 function App() {
-  console.log("App 9");
   return (
     <>
-      Demo
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<WelcomePage />} />
