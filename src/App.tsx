@@ -6,6 +6,7 @@ import { Login } from "./ROUTES/LOGINPAGE/Login";
 import { Table } from "./ROUTES/TABLE/Table";
 
 function App() {
+  console.log("App 9");
   return (
     <>
       Demo
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<WelcomePage />} />
           <Route path="/login" element={<Login />} />
           <Route path="/table" element={<Table />} />
+          <Route path="*" element={<WelcomePage />} />
         </Routes>
       </BrowserRouter>
     </>
